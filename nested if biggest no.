@@ -1,0 +1,25 @@
+#include <stdio.h>//if condition is having internally having another if condition is called nested if//
+#include<math.h>
+
+int main()
+{
+
+int a,b,c;
+    scanf("%d\n",&a,&b,&c);
+    if(a>b)
+    {
+        printf("%d\n",a);
+    }
+    else if(a>c)
+{
+    printf("%d\n",c);
+}
+else if(b>c)
+{
+printf("%d\n",b);
+}
+else{
+printf("%d\n",c);
+}
+    return 0;
+}
