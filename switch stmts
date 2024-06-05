@@ -1,0 +1,29 @@
+//switch(expression){
+   // case constant1://
+    //stmts;//
+   // break;//
+   // ------//
+   // ------/
+    //case constant-n://
+    //stmts//;
+   // break;}//
+#include<stdio.h>
+int main()
+{
+    int a=2;
+    switch (a)
+    {
+    case 1:
+    printf("Java");
+    break;
+    case 2:
+    printf("Python");
+    break;
+    case 3:
+    printf("C");
+    break;
+    default:
+printf("invlid");
+}
+return 0;
+}
