@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+int Q,P;
+    scanf("%d\n%d\n",&Q,&P);
+    int r1=Q;
+    printf("Quantity Ordered %d\n",r1);
+    int r2=P;
+    printf("Price per item is Rs.%d\n",r2);
+    int t=r1*r2;
+    printf("Total Amount = Rs.%d\n",t);
+    float G=(float) (t-410);
+    printf("GST - Rs.%.1f\n",G);
+    float r3=(float)(t+G);
+    printf("Net Amount Payable is Rs.%.1f\n",r3);
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
