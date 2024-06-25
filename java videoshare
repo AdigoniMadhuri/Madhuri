@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args)
+    {
+        Scanner s=new Scanner(System.in);
+        int u=s.nextInt();
+       if( u>=30 && u<=100)
+{
+   System.out.printf("Excellent\n");
+}    else
+    {
+        System.out.printf("Invalid Input");
+        }
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
