@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution
+{
+
+    public static void main(String[] args) 
+    {
+        Scanner s=new Scanner(System.in);
+        int a;
+         a=s.nextInt();
+        int n=a%10;
+        if(n>=5){
+            
+            System.out.printf("%d\n",(a+(10-n)));
+        }
+         else
+        {
+           System.out.printf("%d\n",(a-n));
+                              }
+                              
+                            
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
